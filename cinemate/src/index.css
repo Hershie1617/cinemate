@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background-color: #1C120D; /* deep cinematic black-brown */
+  color: #F5D6A1;           /* warm beige for text */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbar but still allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
