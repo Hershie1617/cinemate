@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logo from "../assets/logotitle.png";
 
 
 function Navbar({ onSearch }) {
@@ -12,8 +13,8 @@ function Navbar({ onSearch }) {
 
   return (
    <nav className="flex justify-between items-center px-8 py-4 bg-[#4A2B1C] text-[#F5D6A1] shadow-lg">
-  <Link to="/" className="text-2xl font-bold flex items-center gap-2">
-    <img src="/logotitle.png" alt="CineMate Logo" className="w-12 h-12 rounded-full" />
+  <Link to="../assets/logotitle.png" className="text-2xl font-bold flex items-center gap-2">
+    <img src={logo} alt="CineMate Logo" className="w-12 h-12 rounded-full" />
     CineMate
   </Link>
 
